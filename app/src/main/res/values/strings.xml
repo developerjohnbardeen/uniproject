@@ -1,0 +1,116 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">UniProject</string>
+    <string name="download_again">Download Again</string>
+    <string name="medeu">menu</string>
+    <string name="almaty_region">apple</string>
+    <string name="ai">https://www.onespan.com/sites/default/files/styles/blog_detail_image/public/2019-04/AI-MachineLearning.jpg?itok=OqDn1kW9</string>
+    <string name="sample_title">Sample Title</string>
+    <string name="more">More</string>
+    <string name="notification_activity">NotificationView</string>
+    <string name="history_fragment">History Fragment</string>
+    <string name="video_play">Video Play</string>
+    <string name="course_List">Course List</string>
+    <string name="courses_list">Courses List</string>
+    <string name="back">Back</string>
+    <string name="history_sample_text">Videos you have watched will appear here</string>
+    <string name="download_sample_text">Videos you have downloaded will appear here</string>
+
+    //top-strings
+    <string name="Computer">Science of Computer in the future</string>
+    <string name="MachineLearning">Science of teaching to computers</string>
+    <string name="AIS">Science of Artificial Intelligence</string>
+    <string name="DataAnalysis">Science of Analysizing Data</string>
+
+    //first_top_topic
+    <string name="sample_1">First Topic</string>
+    <string name="sample_2">Second Topic</string>
+    <string name="sample_3">Third Topic</string>
+    <string name="sample_4">Fourth Topic</string>
+    <string name="sample_5">Fifth Topic</string>
+    <string name="sample_6">Sixth Topic</string>
+    <string name="sample_7">Seventh Topic</string>
+    <string name="sample_8">Eight Topic</string>
+    <string name="sample_9">Ninth Topic</string>
+
+
+
+
+    <string name="computer">Computer Science</string>
+    <string name="machine">Machine Learning</string>
+    <string name="ais">AI Science</string>
+    <string name="dataanalysis">Data Analysis</string>
+
+    
+    //playActivity component values
+    <string name="about_lesson">In short: The 8 Pros screen can refresh at a faster rate
+        giving tasks like scrolling and gaming a smoother look and feel. The 90Hz display
+        in the OnePlus 8 should not be discounted, but we have to admit after using 120Hz
+        displays in the Galaxy S20 lineup and now the OnePlus 8 Pro it is hard to go back to a lower refresh rate</string>
+    <string name="time_length">15:35</string>
+    <string name="listen">Listen</string>
+    <string name="lecture_info">In short: The 8 Pros screen can refresh at a faster rate
+        giving tasks like scrolling and gaming a smoother look and feel. The 90Hz display
+        in the OnePlus 8 should not be discounted, but we have to admit after using 120Hz
+        displays in the Galaxy S20 lineup and now the OnePlus 8 Pro it is hard to go back to a lower refresh rate</string>
+    <string name="teacher_info">In short: The 8 Pros screen can refresh at a faster rate
+        giving tasks like scrolling and gaming a smoother look and feel. The 90Hz display
+        in the OnePlus 8 should not be discounted, but we have to admit after using 120Hz
+        displays in the Galaxy S20 lineup and now the OnePlus 8 Pro it is hard to go back to a lower refresh rate</string>
+
+
+
+    <string name="about_the_teacher">About the teacher</string>
+    <string name="teacher_name">Elon Musk</string>
+    <string name="topic_of_lecture">Topic of Lecture</string>
+    <string name="teacher_profession">Teacher profession</string>
+    <string name="watch_next">Watch Next</string>
+    <string name="name_of_lecture">Name of Lecture</string>
+    <string name="buffering_sring">Buffering Sring</string>
+    <!-- Message to display while video is buffering. -->
+    <string name="buffering_string">Buffering&#8230;</string>
+    <!-- Message to display when video is finished playing. -->
+    <string name="toast_message">Playback completed.</string>
+    <string name="timing">Timing</string>
+    <string name="the_good_the_bad_and_the_ugly">The Good, The Bad And The Ugly</string>
+    <string name="starting_new_activity">Starting new Activity</string>
+    <string name="play_subsection_video">Play subsection_video</string>
+    <string name="auto_fullscreen">Auto fullscreen</string>
+    <string name="list_video_demo">List Video Demo</string>
+    <string name="auto_tiny_window">Auto tiny window</string>
+    <string name="auto_list_video_demo">Auto List Video Demo</string>
+    <string name="video_insert_into_list">Video insert into List</string>
+
+    <string name="servings_label">Servings: </string>
+    <string name="ingredients_label">Ingredients</string>
+    <string name="ingredient_format"><xliff:g id="amount" example="1.2">%s</xliff:g> <xliff:g id="unit" example="Kg">%s</xliff:g></string>
+    <string name="steps_label">Steps</string>
+    <string name="application_name_video_player">Exoplayer</string>
+    <string name="exception_text"> must implement </string>
+    <string name="label_send_to_widget">Send to widget</string>
+    <string name="widget_empty_text">No recipe is selected. Open Delicious and send a recipe to the widget.</string>
+    <string name="successful_send_to_widget">Sent to widget</string>
+    <string name="step_name_text_format"><xliff:g id="amount" example="1">%d</xliff:g>. <xliff:g id="unit" example="step">%s</xliff:g></string>
+    <string name="image_description_visualization_of_the_step">Visualization of the step</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="description">Media Controls</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="textview">TextView</string>
+    <string name="_0_min_0_sec">0 min, 0 sec</string>
+    <string name="media_url">https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_5mb.mp4</string>
+    <string name="media_url_1">https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_5mb.mp4</string>
+    <string name="duration">4:30</string>
+
+    //menu
+    <string name="add_to_list">Add to list</string>
+    <string name="download">Download</string>
+    <string name="remove_download">Remove from download</string>
+    <string name="remove_history">Remove from history</string>
+    <string name="list">List</string>
+    <string name="course_list">Course List</string>
+    <string name="history">History</string>
+    <string name="watch">Watch</string>
+    <string name="todo">TODO</string>
+
+
+</resources>

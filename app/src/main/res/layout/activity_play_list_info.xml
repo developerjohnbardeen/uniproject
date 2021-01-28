@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/list_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme"
+    android:background="#FFFFFF">
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/exoView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:paddingTop="0dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="0dp"/>
+
+    <TextView
+        android:id="@+id/screen_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/watch_next"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_marginStart="@dimen/margin_start"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/related_content_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="@dimen/margin_start"/>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/new_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:layout_marginTop="@dimen/margin_start"
+        android:layout_marginStart="@dimen/margin_start"
+        android:focusable="true">
+
+        <TextView
+            android:id="@+id/lecture_topic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="@string/topic_of_lecture"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/teacher_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginTop="7dp"
+            android:text="@string/teacher_name"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_start"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="@dimen/margin_start">
+
+        <TextView
+            android:id="@+id/time_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/time_length"
+            android:textColor="#000000"
+            />
+
+        <ImageView
+            android:id="@+id/imgLine"
+            android:layout_width="10dp"
+            android:layout_height="14dp"
+            android:src="@drawable/verticalline"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_toEndOf="@id/time_id"
+            android:contentDescription="@string/todo" />
+        <TextView
+            android:id="@+id/lstn_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/listen"
+            android:layout_toEndOf="@+id/imgLine"
+            android:textColor="#000000"
+            />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginStart="@dimen/margin_start">
+
+        <ImageButton
+            android:id="@+id/add_to_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/add_to_list"
+            android:layout_alignParentBottom="true"
+            android:padding="7dp"
+            android:contentDescription="@string/todo"
+            android:focusable="true" />
+
+        <ImageButton
+            android:id="@+id/like_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_heart_svg"
+            android:layout_toEndOf="@+id/add_to_list"
+            android:layout_marginStart="5dp"
+            android:layout_alignParentBottom="true"
+            android:padding="7dp"
+            android:contentDescription="@string/todo"
+            android:focusable="true" />
+
+        <ImageButton
+            android:id="@+id/download_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:srcCompat="@drawable/download_com"
+            android:layout_toEndOf="@+id/like_id"
+            android:fitsSystemWindows="true"
+            android:layout_marginStart="5dp"
+            android:padding="7dp"
+            android:layout_alignParentBottom="true"
+            android:contentDescription="@string/todo"
+            android:focusable="true" />
+
+        <ImageButton
+            android:id="@+id/share_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/black_share"
+            android:layout_toEndOf="@+id/download_id"
+            android:layout_marginStart="5dp"
+            android:layout_alignParentBottom="true"
+            android:padding="7dp"
+            android:contentDescription="@string/todo"
+            android:focusable="true" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/lecture_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/about_lesson"
+        android:textColor="#000000"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="@dimen/margin_start"
+        />
+
+    <TableRow
+        android:id="@+id/hr"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="@dimen/margin_start"
+        android:layout_marginEnd="15dp"
+        android:background="#E4D7D7"/>
+
+    <TextView
+        android:id="@+id/about_teacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="@dimen/margin_start"
+        android:layout_marginBottom="10dp"
+        android:text="@string/about_the_teacher"
+        android:textColor="#000000"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start"
+        android:layout_marginBottom="10dp">
+
+        <com.jackandphantom.circularimageview.CircleImage
+            android:id="@+id/teacher_img"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/teacher"
+            android:layout_marginBottom="10dp"
+            android:background="#FFFFFF"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toEndOf="@+id/teacher_img"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            >
+
+            <TextView
+                android:id="@+id/tchr_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/teacher_name"
+                android:textColor="#B3AFAF"
+                />
+
+            <TextView
+                android:id="@+id/teacher_profession"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/teacher_profession"
+                />
+
+            <TextView
+                android:id="@+id/teacher_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_lesson"
+                android:layout_marginTop="10dp"
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

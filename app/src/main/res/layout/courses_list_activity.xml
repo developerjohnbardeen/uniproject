@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/sectionId"
+    android:padding="5dp"
+    app:cardCornerRadius="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:elevation="0dp"
+    app:cardElevation="0dp"
+    app:rippleColor="@android:color/transparent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/sectionLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:selectableItemBackground"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/listId"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginTop="0dp"
+            android:paddingTop="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/itemTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/txtMore"
+                android:text="@string/sample_title"
+                android:textColor="@android:color/black"
+                android:paddingEnd="@dimen/startPadding"
+                android:paddingStart="@dimen/startPadding"
+                android:layout_marginStart="7dp"
+                android:textSize="18sp" />
+
+
+            <ImageView
+                android:id="@+id/txtMore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/more_button_arrow"
+                android:scaleType="fitCenter"/>
+        </RelativeLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:paddingTop="0dp"
+            android:layout_marginTop="0dp"
+            android:id="@+id/single_item_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
